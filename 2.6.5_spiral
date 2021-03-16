@@ -28,8 +28,6 @@ while i!=n//2 and j!=(n-1)//2:
             a[i][j]=k            
             k+=1              
 
-for s in range(n):
-    for t in range(n):
-        print(a[s][t], end=' ')
-    print()
+for i in range(n):
+  print(*a[i])
            
